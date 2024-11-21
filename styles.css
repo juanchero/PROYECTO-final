@@ -1,0 +1,309 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, hsl(131, 42%, 68%), #5cc24d, #0dde6f);
+    color: #fff;
+    text-align: center;
+}
+
+.header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+}
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-text h1 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.header-text p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+form h2 {
+    margin-bottom: 20px;
+    color: #ffd700;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #32a247, #1b2819, #18f27e); /* Degradado azul celeste, negro y amarillo */
+    color: #333;
+}
+
+.header {
+    background: url('https://as2.ftcdn.net/v2/jpg/03/33/43/37/1000_F_333433735_5nGzBnhAdUdTC5qSQ0YPqsKlOl0CF5IA.jpg') no-repeat center center;
+    background-size: cover;
+    color: #ffd700;
+    padding: 2rem 0;
+    position: relative;
+    text-align: center; /* Centra el contenido dentro del header */
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column; /* Cambiar a columna para que el título quede arriba */
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.header-text {
+    margin-top: 1rem;
+    color: rgb(162, 246, 26);
+    font-weight: bold;
+    text-shadow: 7px 7px 15px rgba(0, 0, 0, 0.8);
+}
+
+.header h1 {
+    font-size: 6rem; /* Ajustar el tamaño del título */
+    margin: 0;
+    font-family: "candara", Times, serif;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+.header p {
+    font-size: 1.5rem;
+    margin: 0;
+    font-family: "candara", Times, serif;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+.nav-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Aumentar el espacio entre los enlaces */
+    margin-top: 2rem;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+.nav-box {
+    background-color: rgba(42, 97, 59, 0.866);
+    color: #ffffff;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-box:hover {
+    background-color: #21491c;
+    color: #edeef6;
+    transform: translateY(9px);
+}
+
+/* Estilo para el Dropdown de departamentos */
+.department-dropdown {
+    margin-top: 2rem;
+    text-align: center;
+    color: #ea079a;
+    font-family: "candara", Times, serif;
+    font-size: 1.5rem; /* Ajustar el tamaño según lo necesites */
+    font-weight: bold; /* Pone el texto en negrita */
+    text-shadow: 2px 2px 5px #000;
+}
+
+.department-dropdown select {
+    background-color: #63ec081d;
+    color: #e0c40c;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.department-dropdown select:focus {
+    outline: none;
+    border: 2px solid #ffd700;
+}
+
+/* Estilo para los botones de login y registro */
+.login-btn, .register-btn {
+    display: inline-block;
+    background-color: #d2432a;
+    color: #170f0f;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login-btn:hover, .register-btn:hover {
+    background-color: #333;
+    color: #ffd700;
+    transform: translateY(-3px);
+}
+
+.login-btn {
+    background-color: #7abef5; /* Azul celeste para "Ingresar" */
+}
+
+.register-btn {
+    background-color: #ffffff; /* Amarillo para "Crear Cuenta" */
+}
+
+.login-btn:hover {
+    background-color: #005f73;
+}
+
+.register-btn:hover {
+    background-color: #333;
+}
+
+/* Estilo para la sección de destinos */
+.main {
+    padding: 2rem;
+}
+
+.destinos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Esto garantiza 4 columnas fijas */
+    gap: 2rem;
+}
+
+.destino {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.destino img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.destino h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.destino button {
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.destino button:hover {
+    background-color: #333;
+    color: #13120c;
+}
+.main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Contenedor de las redes sociales */
+.redes-container {
+    display: flex; /* Organiza los elementos en línea horizontal */
+    gap: 20px; /* Espaciado entre cada elemento */
+    justify-content: space-around; /* Distribuye uniformemente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    flex-wrap: wrap; /* Permite que los elementos pasen a otra línea si el espacio es insuficiente */
+}
+
+/* Estilo individual de cada red social */
+.red {
+    text-align: center;
+    width: 150px; /* Tamaño fijo opcional */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.red:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+.red img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.red button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.red button:hover {
+    background-color: #0056b3;
+}
